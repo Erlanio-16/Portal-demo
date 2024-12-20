@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Регистрация</h1>
+        <form id="registrationForm">
+            <label for="surname">Фамилия:</label>
+            <input type="text" id="surname" required><br>
+
+            <label for="name">Имя:</label>
+            <input type="text" id="name" required><br>
+
+            <label for="age">Возраст:</label>
+            <input type="number" id="age" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br>
+
+            <label for="birthdate">Дата рождения:</label>
+            <input type="date" id="birthdate" required><br>
+
+            <label for="phone">Номер телефона:</label>
+            <input type="tel" id="phone" required><br>
+
+            <label for="address">Адрес:</label>
+            <input type="text" id="address" required><br>
+
+            <label for="location">Место обработки:</label>
+            <select id="location" required>
+                <option value="Ош">Ош</option>
+                <option value="Бишкек">Бишкек</option>
+                <option value="Баткен">Баткен</option>
+            </select><br>
+
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

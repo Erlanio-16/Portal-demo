@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ваш профиль</h1>
+        
+        <div id="profileInfo">
+            <!-- Фото профиля -->
+            <img id="profilePic" src="default.jpg" alt="Фото профиля">
+            
+            <!-- Список данных -->
+            <ul id="dataList">
+                <!-- Здесь будет отображаться список данных -->
+            </ul>
+            
+            <!-- Функция загрузки новой фотографии -->
+            <input type="file" id="profilePhoto" onchange="updateProfilePic()"><br>
+
+            <!-- Кнопка для редактирования данных профиля -->
+            <button onclick="editProfile()">Изменить данные профиля</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
